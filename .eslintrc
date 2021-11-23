@@ -1,0 +1,42 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "jsx-control-statements"
+  ],
+  "globals": {
+    "$": true,
+    "RSAKey": true,
+    "sinon": true,
+    "expect": true,
+    "If": true,
+    "Choose": true,
+    "When": true,
+    "Otherwise": true,
+    "CKEDITOR": true,
+    "plm": true
+  },
+  "rules": {
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "react/jsx-boolean-value": 0,
+    "no-else-return": 0,
+    "react/no-did-mount-set-state": 0,
+    // JSHint Enforcing Rules
+    "no-bitwise": 2,
+    "curly": [
+      2,
+      "multi-line"
+    ],
+    "eqeqeq": 2,
+    "guard-for-in": 2,
+    "no-native-reassign": 2,
+    "no-caller": 2,
+    "no-empty": 2,
+    "no-irregular-whitespace": 2,
+    "no-undef": 2,
+    "no-unused-vars": 2,
+    "strict": 2
+  }
+}
